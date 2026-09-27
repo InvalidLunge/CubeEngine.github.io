@@ -102,7 +102,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Login_32signup_32pageCode.mapOfGDgdjs_9546Login_959532signup_959532pageCode_9546GDintr_95959595LoginObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19839100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22197660);
 }
 }
 if (isConditionTrue_0) {

@@ -10,7 +10,7 @@ gdjs.evtsExt__TextureChild__TextureofChild.idToCallbackMap = new Map();
 gdjs.evtsExt__TextureChild__TextureofChild.GDplayer0Objects1= [];
 
 
-gdjs.evtsExt__TextureChild__TextureofChild.userFunc0x1d0f720 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextureChild__TextureofChild.userFunc0x1df54b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const objeto3D = objects[0];  // Obtener el objeto 3D
 const child1 = eventsFunctionContext.getArgument("Childbody"); 
@@ -72,7 +72,7 @@ gdjs.evtsExt__TextureChild__TextureofChild.eventsList0 = function(runtimeScene, 
 gdjs.copyArray(eventsFunctionContext.getObjects("player0"), gdjs.evtsExt__TextureChild__TextureofChild.GDplayer0Objects1);
 
 const objects = gdjs.evtsExt__TextureChild__TextureofChild.GDplayer0Objects1;
-gdjs.evtsExt__TextureChild__TextureofChild.userFunc0x1d0f720(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextureChild__TextureofChild.userFunc0x1df54b0(runtimeScene, objects, eventsFunctionContext);
 
 }
 

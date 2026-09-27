@@ -9,7 +9,7 @@ gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition = {};
 gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition.userFunc0xb6aa18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition.userFunc0x22dca50 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
@@ -19,7 +19,7 @@ gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition.eventsList0 = function(r
 {
 
 
-gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition.userFunc0xb6aa18(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__CollapsibleVolumeControl__IsInGameEdition.userFunc0x22dca50(runtimeScene, eventsFunctionContext);
 
 }
 

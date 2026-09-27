@@ -73,7 +73,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.idToCal
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.userFunc0x1c63280 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.userFunc0x223bdc0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let paramValue = eventsFunctionContext.getArgument("opacityValue");
 
@@ -114,7 +114,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.eventsL
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.userFunc0x1c63280(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.opacityContext.userFunc0x223bdc0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -201,7 +201,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.idToC
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.userFunc0x1c64898 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.userFunc0x225e9d0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let paramValue = eventsFunctionContext.getArgument("roughnessValue");
 
@@ -239,7 +239,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.event
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.userFunc0x1c64898(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.roughnessContext.userFunc0x225e9d0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -326,7 +326,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.idToC
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.userFunc0x1c55a80 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.userFunc0x224df20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let paramValue = eventsFunctionContext.getArgument("metalnessValue");
 
@@ -364,7 +364,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.event
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.userFunc0x1c55a80(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.metalnessContext.userFunc0x224df20(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -451,7 +451,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.idToCa
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.userFunc0x1c55de0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.userFunc0x225ea08 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let rgbString = eventsFunctionContext.getArgument("colorValue");
 let [r, g, b] = rgbString.split(';').map(Number);
@@ -491,7 +491,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.events
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.userFunc0x1c55de0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.emissiveContext.userFunc0x225ea08(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -578,7 +578,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.idToCallb
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.userFunc0x1c55d70 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.userFunc0x225e9d8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let rgbString = eventsFunctionContext.getArgument("colorValue");
 let [r, g, b] = rgbString.split(';').map(Number);
@@ -618,7 +618,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.eventsLis
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.userFunc0x1c55d70(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.colorContext.userFunc0x225e9d8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -705,7 +705,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.idToCall
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.userFunc0x1c55910 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.userFunc0x224c158 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let valueX = eventsFunctionContext.getArgument("x");
 let valueY = eventsFunctionContext.getArgument("y");
@@ -752,7 +752,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.eventsLi
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.userFunc0x1c55910(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.repeatContext.userFunc0x224c158(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -840,7 +840,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.idToCall
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.userFunc0x1c633b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.userFunc0x224daf0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let valueX = eventsFunctionContext.getArgument("x");
 let valueY = eventsFunctionContext.getArgument("y");
@@ -887,7 +887,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.eventsLi
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.userFunc0x1c633b0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.offsetContext.userFunc0x224daf0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -975,7 +975,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.idToCallb
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.userFunc0x1c647d0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.userFunc0x2267a00 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let wrap = eventsFunctionContext.getArgument("wrap");
 
@@ -1028,7 +1028,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.eventsLis
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.userFunc0x1c647d0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapSContext.userFunc0x2267a00(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1115,7 +1115,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.idToCallb
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.userFunc0x1c64950 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.userFunc0x2267610 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let wrap = eventsFunctionContext.getArgument("wrap");
 
@@ -1168,7 +1168,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.eventsLis
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.userFunc0x1c64950(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.wrapTContext.userFunc0x2267610(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1255,7 +1255,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.userFunc0x1c63750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.userFunc0x223bea8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let texturePath = eventsFunctionContext.getArgument("texture");
 
@@ -1310,7 +1310,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.userFunc0x1c63750(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureResourceContext.userFunc0x223bea8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1397,7 +1397,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.idTo
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.userFunc0x1c63750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.userFunc0x22675e8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 let texturePath = eventsFunctionContext.getArgument("texture");
 
@@ -1452,7 +1452,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.even
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.userFunc0x1c63750(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.textureURLContext.userFunc0x22675e8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1539,7 +1539,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceCo
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.userFunc0x1c55b68 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.userFunc0x223bec0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const texturePath = eventsFunctionContext.getArgument("texture");
 const shouldLoop = eventsFunctionContext.getArgument("loop");
@@ -1614,7 +1614,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceCo
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.userFunc0x1c55b68(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureResourceContext.userFunc0x223bec0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1702,7 +1702,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext
 gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.userFunc0x1c68cc8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.userFunc0x224c320 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const texturePath = eventsFunctionContext.getArgument("texture");
 const shouldLoop = eventsFunctionContext.getArgument("loop");
@@ -1778,7 +1778,7 @@ gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.GDObjectObjects1;
-gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.userFunc0x1c68cc8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Material3D__Material3D.Material3D.prototype.videoTextureURLContext.userFunc0x224c320(runtimeScene, objects, eventsFunctionContext);
 
 }
 
