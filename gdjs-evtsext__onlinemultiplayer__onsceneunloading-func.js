@@ -9,7 +9,7 @@ gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading = {};
 gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading.userFunc0x93c5f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading.userFunc0x10cb298 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._OnlineMultiplayer) {
     const WS = gdjs._OnlineMultiplayer.get("WS");
@@ -26,7 +26,7 @@ gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading.userFunc0x93c5f8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__OnlineMultiplayer__onSceneUnloading.userFunc0x10cb298(runtimeScene, eventsFunctionContext);
 
 }
 

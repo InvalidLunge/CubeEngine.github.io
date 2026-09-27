@@ -9,7 +9,7 @@ gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation = {};
 gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation.userFunc0x96d068 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation.userFunc0x15db820 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const Task = eventsFunctionContext.task;
 const URL = "https://ws.pandako.mydns.jp/" + runtimeScene.getGame().getGameData().properties.name;
@@ -27,7 +27,7 @@ gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation.eventsList0 = function(
 {
 
 
-gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation.userFunc0x96d068(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__OnlineMultiplayer__RequestSceneInformation.userFunc0x15db820(runtimeScene, eventsFunctionContext);
 
 }
 

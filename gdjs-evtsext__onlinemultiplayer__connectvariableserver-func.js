@@ -9,7 +9,7 @@ gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer = {};
 gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer.userFunc0x936390 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer.userFunc0xbb6728 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.__SSV = true;
 
@@ -20,7 +20,7 @@ gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer.eventsList0 = function(ru
 {
 
 
-gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer.userFunc0x936390(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__OnlineMultiplayer__ConnectVariableServer.userFunc0xbb6728(runtimeScene, eventsFunctionContext);
 
 }
 

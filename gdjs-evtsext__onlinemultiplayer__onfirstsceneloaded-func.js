@@ -9,7 +9,7 @@ gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded = {};
 gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded.userFunc0x159e6a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded.userFunc0x15db820 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 console.log("Loaded Online Multiplayer Extension.");
 
@@ -20,7 +20,7 @@ gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded.userFunc0x159e6a0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__OnlineMultiplayer__onFirstSceneLoaded.userFunc0x15db820(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -132,7 +132,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedC
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.userFunc0x1d2ae68 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 (function InitFontLoader() {
     if (typeof THREE === "undefined") {
@@ -369,7 +369,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.userFunc0x1d2ae68(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onCreatedContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -454,7 +454,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyC
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.userFunc0x1d1ada8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 objects.forEach(Object => {
     Object._isDestroyed = true;
@@ -479,7 +479,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyC
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.userFunc0x1d1ada8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.onDestroyContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -563,7 +563,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.userFunc0x1d615e8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 objects.forEach(Object => {
     if (!Object.threeTextMesh || !Object.threeTextMesh.material) return;
@@ -579,7 +579,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.userFunc0x1d615e8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextColorContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -664,7 +664,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.userFunc0x1d62650 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 objects.forEach(Object => {  
     if (!Object.threeTextMesh) return;  
@@ -724,7 +724,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.userFunc0x1d62650(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextFontContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -809,7 +809,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.userFunc0x1d2ce58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 objects.forEach(Object => {    
     if (!Object.threeTextMesh || !Object.threeFont) return;    
@@ -862,7 +862,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.userFunc0x1d2ce58(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextSizeContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -947,7 +947,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.userFunc0x1d61010 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 objects.forEach(Object => {  
     if (!Object.threeTextMesh || !Object.threeFont) return;  
@@ -1004,7 +1004,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.userFunc0x1d61010(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1089,7 +1089,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.userFunc0x1d273c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 };
@@ -1100,7 +1100,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.userFunc0x1d273c0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextDepthContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1184,7 +1184,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.userFunc0x1d27398 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.userFunc0x1dc1750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 };
@@ -1195,7 +1195,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.userFunc0x1d27398(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextCurveSegmentsContext.userFunc0x1dc1750(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1279,7 +1279,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTex
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.userFunc0x1d273c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.userFunc0x1dc7340 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 };
@@ -1290,7 +1290,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTex
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.userFunc0x1d273c0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.BooleanTextBevelContext.userFunc0x1dc7340(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1374,7 +1374,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.userFunc0x1d60018 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.userFunc0x1dc1750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 };
@@ -1385,7 +1385,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.userFunc0x1d60018(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSizeContext.userFunc0x1dc1750(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1469,7 +1469,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.userFunc0x1d60018 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.userFunc0x1dc1750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 };
@@ -1480,7 +1480,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.userFunc0x1d60018(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelThicknessContext.userFunc0x1dc1750(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1564,7 +1564,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.userFunc0x1d604f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.userFunc0x1dc1750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 
 };
@@ -1575,7 +1575,7 @@ gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeText
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.GDObjectObjects1;
-gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.userFunc0x1d604f8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__TextGeometry3D__TextGeometry3D.TextGeometry3D.prototype.ChangeTextBevelSegmentsContext.userFunc0x1dc1750(runtimeScene, objects, eventsFunctionContext);
 
 }
 
