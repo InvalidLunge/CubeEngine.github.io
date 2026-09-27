@@ -82,6 +82,15 @@ gdjs.AvatarEditorCode.GDitem_9595name2Objects3= [];
 gdjs.AvatarEditorCode.GDitem_9595name3Objects1= [];
 gdjs.AvatarEditorCode.GDitem_9595name3Objects2= [];
 gdjs.AvatarEditorCode.GDitem_9595name3Objects3= [];
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects1= [];
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects2= [];
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects3= [];
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects1= [];
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects2= [];
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects3= [];
+gdjs.AvatarEditorCode.GDitem_9595name4Objects1= [];
+gdjs.AvatarEditorCode.GDitem_9595name4Objects2= [];
+gdjs.AvatarEditorCode.GDitem_9595name4Objects3= [];
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects1= [];
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects2= [];
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects3= [];
@@ -128,7 +137,8 @@ gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDButton_95959595Game
 gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDSkinObjects2Objects = Hashtable.newFrom({"Skin": gdjs.AvatarEditorCode.GDSkinObjects2});
 gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDButton_95959595GamesObjects2Objects = Hashtable.newFrom({"Button_Games": gdjs.AvatarEditorCode.GDButton_9595GamesObjects2});
 gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595HatObjects2Objects = Hashtable.newFrom({"Wear_Button_Hat": gdjs.AvatarEditorCode.GDWear_9595Button_9595HatObjects2});
-gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595Hat2Objects1Objects = Hashtable.newFrom({"Wear_Button_Hat2": gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat2Objects1});
+gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595Hat2Objects2Objects = Hashtable.newFrom({"Wear_Button_Hat2": gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat2Objects2});
+gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595Hat3Objects1Objects = Hashtable.newFrom({"Wear_Button_Hat3": gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects1});
 gdjs.AvatarEditorCode.eventsList0 = function(runtimeScene) {
 {
 
@@ -314,27 +324,42 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Wear_Button_Hat2"), gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("Wear_Button_Hat2"), gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat2Objects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595Hat2Objects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595Hat2Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("FHFFP"), gdjs.AvatarEditorCode.GDFHFFPObjects1);
-gdjs.copyArray(runtimeScene.getObjects("MaleAvatarPreview"), gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects1);
+gdjs.copyArray(runtimeScene.getObjects("FHFFP"), gdjs.AvatarEditorCode.GDFHFFPObjects2);
+gdjs.copyArray(runtimeScene.getObjects("MaleAvatarPreview"), gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects2);
 {runtimeScene.getGame().getVariables().getFromIndex(11).getChild("Hats").setNumber(100);
 }
-{for(var i = 0, len = gdjs.AvatarEditorCode.GDFHFFPObjects1.length ;i < len;++i) {
-    gdjs.AvatarEditorCode.GDFHFFPObjects1[i].setPosition((( gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects1.length === 0 ) ? 0 :gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects1[0].getX()),(( gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects1.length === 0 ) ? 0 :gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects1[0].getY()));
+{for(var i = 0, len = gdjs.AvatarEditorCode.GDFHFFPObjects2.length ;i < len;++i) {
+    gdjs.AvatarEditorCode.GDFHFFPObjects2[i].setPosition((( gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects2.length === 0 ) ? 0 :gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects2[0].getX()),(( gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects2.length === 0 ) ? 0 :gdjs.AvatarEditorCode.GDMaleAvatarPreviewObjects2[0].getY()));
 }
 }
-{for(var i = 0, len = gdjs.AvatarEditorCode.GDFHFFPObjects1.length ;i < len;++i) {
-    gdjs.AvatarEditorCode.GDFHFFPObjects1[i].getBehavior("Object3D").turnAroundZ(90);
+{for(var i = 0, len = gdjs.AvatarEditorCode.GDFHFFPObjects2.length ;i < len;++i) {
+    gdjs.AvatarEditorCode.GDFHFFPObjects2[i].getBehavior("Object3D").turnAroundZ(90);
 }
 }
-{for(var i = 0, len = gdjs.AvatarEditorCode.GDFHFFPObjects1.length ;i < len;++i) {
-    gdjs.AvatarEditorCode.GDFHFFPObjects1[i].getBehavior("Object3D").turnAroundX(270);
+{for(var i = 0, len = gdjs.AvatarEditorCode.GDFHFFPObjects2.length ;i < len;++i) {
+    gdjs.AvatarEditorCode.GDFHFFPObjects2[i].getBehavior("Object3D").turnAroundX(270);
 }
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Wear_Button_Hat3"), gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.AvatarEditorCode.mapOfGDgdjs_9546AvatarEditorCode_9546GDWear_95959595Button_95959595Hat3Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(11).getChild("Hats").setNumber(102);
 }
 }
 
@@ -568,6 +593,15 @@ gdjs.AvatarEditorCode.GDitem_9595name2Objects3.length = 0;
 gdjs.AvatarEditorCode.GDitem_9595name3Objects1.length = 0;
 gdjs.AvatarEditorCode.GDitem_9595name3Objects2.length = 0;
 gdjs.AvatarEditorCode.GDitem_9595name3Objects3.length = 0;
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects1.length = 0;
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects2.length = 0;
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects3.length = 0;
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects1.length = 0;
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects2.length = 0;
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects3.length = 0;
+gdjs.AvatarEditorCode.GDitem_9595name4Objects1.length = 0;
+gdjs.AvatarEditorCode.GDitem_9595name4Objects2.length = 0;
+gdjs.AvatarEditorCode.GDitem_9595name4Objects3.length = 0;
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects1.length = 0;
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects2.length = 0;
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects3.length = 0;
@@ -672,6 +706,15 @@ gdjs.AvatarEditorCode.GDitem_9595name2Objects3.length = 0;
 gdjs.AvatarEditorCode.GDitem_9595name3Objects1.length = 0;
 gdjs.AvatarEditorCode.GDitem_9595name3Objects2.length = 0;
 gdjs.AvatarEditorCode.GDitem_9595name3Objects3.length = 0;
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects1.length = 0;
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects2.length = 0;
+gdjs.AvatarEditorCode.GDWear_9595Button_9595Hat3Objects3.length = 0;
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects1.length = 0;
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects2.length = 0;
+gdjs.AvatarEditorCode.GDGoldenToOrangeHairObjects3.length = 0;
+gdjs.AvatarEditorCode.GDitem_9595name4Objects1.length = 0;
+gdjs.AvatarEditorCode.GDitem_9595name4Objects2.length = 0;
+gdjs.AvatarEditorCode.GDitem_9595name4Objects3.length = 0;
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects1.length = 0;
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects2.length = 0;
 gdjs.AvatarEditorCode.GDi_9595Logo_9595TestObjects3.length = 0;
